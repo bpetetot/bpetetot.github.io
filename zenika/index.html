@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
+  <title>Welcome to Zenika !</title>
+</head>
+<!-- http://www.html5rocks.com/tutorials/video/basics/Chrome_ImF.webm -->
+<body>
+  <div id="viewport">
+    <div id="title">
+      <h1><span>Benjamin</span> Petetot</h1>
+    </div>
+    <video id="canvas" class="video" preload="auto" >
+      <source type="video/webm" src="./videos/test2.webm" />
+      <source type="video/mp4" src="./videos/test2.mp4" />
+      Your browser does not support HTML5 video.
+    </video>
+    <div id="pointer" style="display:none"></div>
+    <div id="field" class="moveAni" style="display:none">
+    </div>
+  </div>
+
+  <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+  <script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
